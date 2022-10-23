@@ -1,0 +1,17 @@
+.big {
+	width: 21rem;
+	background-color: var(--dark-purple);
+}
+
+.button {
+	border-radius: 2rem;
+	border: 0.1rem solid var(--dark-purple);
+	cursor: pointer;
+	padding: 1rem;
+	border: none;
+	color: white;
+}
+
+.button:hover {
+	filter: brightness(120%);
+}

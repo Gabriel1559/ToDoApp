@@ -1,0 +1,28 @@
+.user-container {
+	display: flex;
+	margin: 1rem;
+	width: 5rem;
+	height: 5rem;
+	gap: 1rem;
+}
+
+.email-name {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	:nth-child(1) {
+		font-weight: bold;
+		text-transform: capitalize;
+	}
+
+	:nth-child(2) {
+		color: gray;
+	}
+}
+
+.round-image {
+	width: 4rem;
+	height: 4rem;
+	border-radius: 90%;
+}

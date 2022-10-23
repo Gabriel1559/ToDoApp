@@ -1,0 +1,23 @@
+@import "./side";
+@import "./components";
+@import "./variables";
+@import "./canvas";
+
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: "Roboto", sans-serif;
+}
+
+.page-template {
+	display: grid;
+	grid-template-columns: 25% 50% 25%;
+	min-height: 100vh;
+}
+
+.home-page-template {
+	display: grid;
+	grid-template-columns: 20% auto;
+	min-height: 100vh;
+}

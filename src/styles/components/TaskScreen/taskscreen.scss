@@ -1,0 +1,35 @@
+.tasksScreen {
+	background-color: var(--background-color-tasks);
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+
+	h1 {
+		color: white;
+	}
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	margin: 2rem;
+}
+
+.categories {
+	display: flex;
+	margin: 0 1rem;
+}
+
+.category {
+	color: var(--inactive-text);
+	padding: 0 1.5rem 0.5rem 1.5rem;
+	border-bottom: 0.2rem var(--inactive-text) solid;
+	cursor: pointer;
+	text-transform: capitalize;
+}
+
+.active {
+	color: var(--active-text);
+	border-bottom: 0.3rem var(--active-text) solid;
+}

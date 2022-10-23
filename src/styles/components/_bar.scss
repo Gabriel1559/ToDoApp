@@ -1,0 +1,11 @@
+.bar-container {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	cursor: pointer;
+}
+
+.name-icon {
+	display: flex;
+	gap: 0.5rem;
+}

@@ -1,0 +1,28 @@
+.search-icon {
+	margin: 0rem;
+	margin: 2rem 1rem 0 1rem;
+	position: relative;
+	width: 70%;
+	input {
+		font-size: 1.5rem;
+		padding: 1rem 2rem;
+		border-radius: 1rem;
+		width: 100%;
+		outline: none;
+		color: gray;
+		&:focus {
+			border-style: solid;
+			border-color: var(--dark-purple);
+			color: var(--dark-purple);
+			&::placeholder {
+				color: var(--dark-purple);
+			}
+		}
+	}
+	svg {
+		position: absolute;
+		top: 50%;
+		left: -5%;
+		transform: translate(70%, -50%);
+	}
+}
